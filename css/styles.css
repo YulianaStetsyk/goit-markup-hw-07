@@ -56,7 +56,6 @@ img {
     color: #4D5AE5;
 }
 
-
 /*MAIL*/
 .hero {
     text-align: center;
@@ -601,7 +600,22 @@ img {
 
 
             /* header*/
-
+@media screen and  (max-width: 428px) {
+    .mobile-phone {
+        font-size: 28px;
+    }
+    .mobile-menu-network {
+        gap: 30px ;
+}
+}
+@media screen and (min-width: 428px) and (max-width: 767px) {
+    .mobile-phone {
+        font-size: 36px;
+    }  
+    .mobile-menu-network { 
+        gap: 56px;
+}
+}
 @media screen and (min-width: 480px) {
     .container {
         width: 428px;
@@ -610,12 +624,7 @@ img {
     }
     .menu-mobile-link{
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .menu-mobile-link:active,
-    .menu-mobile-link:focus {
-        color:#4D5AE5;
-    }
-    
+    }   
 }
 
 @media screen and (max-width: 767px) {
@@ -701,6 +710,10 @@ img {
         letter-spacing: 0.02em;
         color: #2E2F42;
     }
+    .menu-mobile-link:active,
+    .menu-mobile-link:focus {
+        color:#4D5AE5;
+    }
     .mobile-contact-bottom {
         position: absolute;
         top: 564px;
@@ -724,7 +737,6 @@ img {
     .mobile-phone {
         font-family: 'Roboto', sans-serif;
         font-weight: 500;
-        font-size: 36px;
         line-height: 1.1;
         text-align: left;
         color:#434455;
@@ -734,7 +746,7 @@ img {
         flex-direction: row;
         align-items: flex-start;
         padding: 0px;
-        gap: 56px;
+        padding-bottom: 40px;
     }
     .network-menu {    
         display: flex;
