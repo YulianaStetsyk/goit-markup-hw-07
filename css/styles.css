@@ -1024,10 +1024,6 @@ img {
         width: 263px;
         column-gap: 24px;
         row-gap: 16px;
-    }   
-    .card-item {
-        width: 396px;
-    } 
 }
 
 @media screen and (max-width: 1199px) {
